@@ -1,2 +1,3 @@
 # WorkoutTracker
-My application for software engineering
+How to use:
+open this HTML file in the browser
