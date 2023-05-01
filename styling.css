@@ -1,0 +1,366 @@
+/* STYLING HOME PAGE */
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav li a:hover {
+  background-color: #333;
+  color: #333;
+}
+
+
+.login-container,
+.register-container {
+  width: 400px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 50px auto;
+}
+
+.login-container h2,
+.register-container h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.login-container label,
+.register-container label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"],
+.register-container input[type="email"],
+.register-container input[type="text"],
+.register-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.login-container .submit-button,
+.register-container .homesubmit-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-container .submit-button:hover,
+.register-container .homesubmit-button:hover {
+  background-color: #3e8e41;
+}
+
+.login-link,
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-link a,
+.register-link a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* .login-container.hidden {
+  display: none;
+} */
+
+#register-submit-button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#register-submit-button:hover {
+  background-color: #45a049;
+}
+
+.HomePageText {
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+main {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.login-container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#password {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#username {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+/* STYLING EXERCISE TRACKING PAGE */
+#name-input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+}
+
+#sets-input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+}
+
+#reps-input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.ExerciseText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#add-name-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 40%;
+}
+
+#add-name-btn:hover {
+    background-color: #3d8a3f;
+}
+
+#search-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+  }
+
+table {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  th {
+    font-weight: bold;
+    text-align: left;
+    padding: 12px 15px;
+    border-top: 1px solid #ddd;
+  }
+  
+  td {
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+
+.delete-row-btn {
+    background-color: #c53535;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.delete-row-btn:hover {
+    background-color: #852525;
+}
+
+.edit-row-btn {
+    background-color: #189288;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.edit-row-btn:hover {
+    background-color: #14756d;
+}
+
+#update-reps-input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  
+  #update-sets-input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  
+  #update-name-input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+
+  #update-row-btn {
+    background-color: rgb(39, 39, 240);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#update-row-btn:hover {
+    background-color: rgb(36, 36, 104);
+}
+  
+  .UpdateText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
