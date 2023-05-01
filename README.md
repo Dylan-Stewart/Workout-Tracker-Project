@@ -1,5 +1,4 @@
 - How to use: open this HTML file in the browser
-- Must have all the packages
-- Make sure to run the command "nodemon app" in the server directory so it starts the server with mysql
-
-
+- Must have all the module packages
+- Make sure to run the command "nodemon app" in the server directory so it starts the server with mysql and you can use my table and store workouts remove workouts edit table data and it will auto store the exact date when you track a workout
+- You will need to have XAAMP with apache and mysql running

@@ -38,6 +38,10 @@ nav li a:hover {
   margin: 50px auto;
 }
 
+.login-container {
+  margin-top: 300px;
+}
+
 .login-container h2,
 .register-container h2 {
   text-align: center;
