@@ -1,4 +1,4 @@
-- **|| NOTICE ||** The registration and login features do not do anything besides authenticate that you are in fact a valid user in a console log and you can register yourself. It is currently very difficult for me to figure out how to configure the login to work hand-in-hand with the table.
+- **|| NOTICE ||** The registration and login features do not do anything besides authenticate that you are in fact a valid user in a console log and you can register yourself. It is currently an issue for me to configure the login to work hand-in-hand with the table.
 - How to use: open this HTML file in the browser
 - Must have all the module packages
 - Make sure to run the command "nodemon app" in the server directory so it starts the server with mysql and you can use my table and store workouts remove workouts edit table data and it will auto store the exact date when you track a workout
