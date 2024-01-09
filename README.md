@@ -6,3 +6,4 @@
 - Make sure to use a database called workout with a table called exercises with the table fields (id, name, date_added, sets, reps)
 - For the login code you need a database called user_info with the table fields (user_id, user_name, user_password, user_email, user_password)
 - You also may need to also add a user account for how you are connecting to mysql through xampp.
+- Lastly you can just cd into the server directory and run the terminal command "nodemon app" to use my application
