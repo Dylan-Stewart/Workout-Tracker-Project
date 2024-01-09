@@ -264,18 +264,15 @@ function loadHTMLTable(data) {
 
 function showRegisterContainer() {
     document.querySelector('.login-container').style.display = 'none';
-    document.querySelector('.space-container').style.display = 'none';
     document.querySelector('.register-container').style.display = 'block';
   }
   function showLoginContainer() {
     document.querySelector('.register-container').style.display = 'none';
     document.querySelector('.login-container').style.display = 'block';
-    document.querySelector('.space-container').style.display = 'block';
   }
   function hideLoginAndRegister() {
     document.querySelector('.register-container').style.display = 'none';
     document.querySelector('.login-container').style.display = 'none';
-    document.querySelector('.space-container').style.display = 'none';
   }
 
 
