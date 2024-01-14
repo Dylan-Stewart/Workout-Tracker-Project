@@ -7,11 +7,11 @@
 - For the login code you need a database called user_info with the table fields (user_id, user_name, user_password, user_email, user_password)
 - You also may need to also add a user account for how you are connecting to mysql through xampp.
 - Lastly make sure to run the command "nodemon app" in the server directory so it starts the server with mysql and you can use my table and store workouts remove workouts edit table data and it will auto store the exact date when you track a workout
-### Homepage
+# Homepage
 <img src="CLICK%20TO%20SEE%20PROJECT/%21homepage.png" width="200">
 
-### Exercises
+# Exercises
 <img src="CLICK%20TO%20SEE%20PROJECT/%23exercises.png" width="200">
 
-### Contact
+# Contact
 <img src="CLICK%20TO%20SEE%20PROJECT/%24contact.png" width="200">
